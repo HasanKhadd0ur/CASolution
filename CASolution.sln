@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceCode", "SourceCode", "{19DC7775-FAA6-4DC7-AD42-D5551CA59378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.SharedKernel", "CASolution.SharedKernel\CASolution.SharedKernel.csproj", "{C4D41DE3-DF9D-4995-82B4-297B03C369B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CASolution.SharedKernel", "src\CASolution.SharedKernel\CASolution.SharedKernel.csproj", "{C4D41DE3-DF9D-4995-82B4-297B03C369B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{3014B872-0E60-499C-ADDD-6F27B2CCE784}"
 EndProject

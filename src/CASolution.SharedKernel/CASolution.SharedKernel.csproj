@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CASolution.SharedKernel</PackageId>
+    <Description>shared Kernel for Clean Architecture &amp; DDD
+A reusable project designed to serve as a shared kernel for solutions implementing Clean Architecture and Domain-Driven Design (DDD) principles. This shared kernel encapsulates common domain elements like entities, value objects, domain events, and cross-cutting concerns, promoting reuse across multiple bounded contexts while maintaining clean separation of concerns.</Description>
+    <Copyright>Khadour</Copyright>
+	
+    <PackageIcon>image-1.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/HasanKhadd0ur/CASolution.SharedKernel</RepositoryUrl>
+    <PackageReleaseNotes>a first  realease</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/HasanKhadd0ur/CASolution.SharedKernel</PackageProjectUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Khaddour</Authors>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+  <PackageVersion>1.0.1</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DomainEvents\" />
+    <Folder Include="Entities\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="DomainErrors\" />
+    <Folder Include="DomainExceptions\" />
+    <Folder Include="DomainAggregate\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Specification\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" Version="7.0.0" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\Saved Pictures\image-1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
