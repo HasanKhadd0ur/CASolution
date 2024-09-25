@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CASolution.SharedKernel", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{3014B872-0E60-499C-ADDD-6F27B2CCE784}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A858AF16-2FA0-4E6E-AB2E-7700B3A01D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Domain", "src\CASolution.Domain\CASolution.Domain.csproj", "{4C2A5E81-CC71-4C7F-BD06-529C46255ABC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D41DE3-DF9D-4995-82B4-297B03C369B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2A5E81-CC71-4C7F-BD06-529C46255ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2A5E81-CC71-4C7F-BD06-529C46255ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2A5E81-CC71-4C7F-BD06-529C46255ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2A5E81-CC71-4C7F-BD06-529C46255ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C4D41DE3-DF9D-4995-82B4-297B03C369B9} = {3014B872-0E60-499C-ADDD-6F27B2CCE784}
 		{3014B872-0E60-499C-ADDD-6F27B2CCE784} = {19DC7775-FAA6-4DC7-AD42-D5551CA59378}
+		{A858AF16-2FA0-4E6E-AB2E-7700B3A01D0F} = {19DC7775-FAA6-4DC7-AD42-D5551CA59378}
+		{4C2A5E81-CC71-4C7F-BD06-529C46255ABC} = {A858AF16-2FA0-4E6E-AB2E-7700B3A01D0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E1A327E-1CD6-4A5A-AFDD-A297BE63A788}
