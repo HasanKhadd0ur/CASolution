@@ -23,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{12
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persisitence", "Persisitence", "{E198B003-9C2F-4AEA-BD15-C4C02F7B27D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Infrastructure.Services", "src\CASolution.Infrastructure.Services\CASolution.Infrastructure.Services.csproj", "{C112AF0E-26EA-4E66-88CF-40DA79DC6CA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Infrastructure.Services", "src\CASolution.Infrastructure\CASolution.Infrastructure.Services\CASolution.Infrastructure.Services.csproj", "{C112AF0E-26EA-4E66-88CF-40DA79DC6CA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Infrastructure.Persistence", "src\CASolution.Infrastructure.Persistence\CASolution.Infrastructure.Persistence.csproj", "{786E8950-A2BF-4942-AEFD-139F9DDA77EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Infrastructure.Persistence", "src\CASolution.Infrastructure\CASolution.Infrastructure.Persistence\CASolution.Infrastructure.Persistence.csproj", "{786E8950-A2BF-4942-AEFD-139F9DDA77EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A31E6E2E-F91E-49AC-83F9-9FC1F60249F1}"
 EndProject
@@ -37,13 +37,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{4B2EAFB6-82C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.API", "src\CASolution.API\CASolution.API.csproj", "{CA5C25B1-7759-4784-94C5-91E2A4A513B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Contracts", "src\CASolution.Contracts\CASolution.Contracts.csproj", "{CC5C49AF-A8C8-46C0-BD0D-1F9E45F7C38D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Contracts", "src\CASolution.Presentation\CASolution.Contracts\CASolution.Contracts.csproj", "{CC5C49AF-A8C8-46C0-BD0D-1F9E45F7C38D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{57C80B80-5A30-4A9C-8AAF-F4D1D4D5D5CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchitectureTest", "ArchitectureTest", "{C1387FDB-5B99-446E-91EA-49D7B64E5605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Web", "src\CASolution.Web\CASolution.Web.csproj", "{9D89B9DF-6996-4350-AADF-6EC05FB76519}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.Web", "src\CASolution.Presentation\CASolution.Web\CASolution.Web.csproj", "{9D89B9DF-6996-4350-AADF-6EC05FB76519}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASolution.ArchitectureTest", "tests\CASolution.ArchitectureTest\CASolution.ArchitectureTest.csproj", "{987ADAE2-7DC2-4C66-8B7D-2DADB312F461}"
 EndProject
